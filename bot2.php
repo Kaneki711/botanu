@@ -11,8 +11,8 @@ di Edit dikit @ Kris
 require_once('./line_class.php');
 require_once('./unirest-php-master/src/Unirest.php');
 
-$channelAccessToken = 'QuwChCEGKOD+oZY4CdysYMFaTl/koTvclk9Kv0e5SFvT8Hi0VFNRVEIidx8a3aPp01/Cpe72WASm8H5nq6pZYFCrxlXx2TcshN7LEBg7f1+UNiIzEhWeP7tHW0MPmlkviW66zQp872ShbhB63cltGgdB04t89/1O/w1cDnyilFU='; //tantebot
-$channelSecret = '682596c12a706fac0a5b415bfb9c66c1';//tantebot
+$channelAccessToken = 'iztwUeForYBe5hcsCEQS8/riX6VPEmC5NpMICp0hxo0NSdXFdghllmfmpUPg+XrmfGpuU3RdFoSwyiOLzdS8XtASvHHrdVuNDA3dC4F9oWpmkD13P/qFAHiCrDgIyJB4axtJHXunfQNhrKmm3XaosQdB04t89/1O/w1cDnyilFU='; //tantebot
+$channelSecret = '532678d8a34e02bd6d6180f758e9fbbb';//tantebot
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 
@@ -71,7 +71,7 @@ function shalat($keyword) {
 
 //show menu, saat join dan command /menu
 if ($type == 'join' || $command == '/menu') {
-    $text = "Kenapa gua diundang ke grup lu? ketik /keyword kalau mau tahu gua berguna gk buat nie grup\n\nKlo lu gk suka ama gua, usir aja gua dari sini, ketik \keluar";
+    $text = "Terimakasih Telah Undang Saya Ke Group Anda Ketik /menu Untuk Menampilkan Command";
     $balas = array(
         'replyToken' => $replyToken,
         'messages' => array(
